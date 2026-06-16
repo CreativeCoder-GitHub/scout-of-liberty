@@ -1,5 +1,5 @@
 {
-  "_copyright": "Copyright (c) 2026 [Your Name or Organization]",
+  "_copyright": "Copyright (c) 2026 Shaurya Sharma",
   "_license": "SPDX-License-Identifier: MIT",
   "packages": ["micropip", "pytmx"],
   "fetch": [
