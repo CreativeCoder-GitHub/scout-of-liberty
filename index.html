@@ -1,0 +1,42 @@
+<!-- Copyright (c) 2026 Shaurya Sharma
+SPDX-License-Identifier: MIT -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Scout of Liberty</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <script src="mini-coi-fd.js"></script>
+  <script type="module" src="./assets/pyscript/core.js"></script>
+  <link rel="stylesheet" href="./assets/pyscript/core.css">
+  <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body{
+      overflow-x: hidden; /* Hide horizontal scrollbar. */
+    }
+    /* Center the game container. */
+    .game-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100vw;
+    }
+  </style>
+</head>
+<body>
+  <h1>Scout of Liberty</h1>
+  <p>Scout of Liberty is a 2D retro-style platformer game made in Python which is inspired by the American Revolution. 
+    In this game, the player serves as a fictional scout for the Sons of Liberty.
+  </p>
+  <div class="game-container">
+    <div id="loading-overlay" style="position: absolute; font-size: 30px; color: white;">
+        Loading Engine...
+    </div>
+    <canvas id="canvas" style="background-color: black;" width="800px" height="600px"></canvas>
+  </div>
+  <script type="py-game" src="main-web.py" config="pyscript-config.json"></script>
+  <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

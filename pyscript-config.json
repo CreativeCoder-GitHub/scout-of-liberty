@@ -1,0 +1,57 @@
+{
+  "_copyright": "Copyright (c) 2026 [Your Name or Organization]",
+  "_license": "SPDX-License-Identifier: MIT",
+  "packages": ["micropip", "pytmx"],
+  "fetch": [
+    {
+      "files": ["attacks.py", "boss.py", "enemy.py", "level.py", "particles.py", "player.py", "ui.py", "utils.py"]
+    },
+    {
+      "from": "./assets/attacks/",
+      "to_folder": "assets/attacks",
+      "files": ["bomb.png", "explosion.png", "swish.png"]
+    },
+    {
+      "from": "./assets/boss/",
+      "to_folder": "assets/boss",
+      "files": ["hit.png", "idle.png", "musket.png", "run.png"]
+    },
+    {
+      "from": "./assets/enemy/",
+      "to_folder": "assets/enemy",
+      "files": ["hit.png", "idle.png", "run.png"]
+    },
+    {
+      "from": "./assets/level/",
+      "to_folder": "assets/level",
+      "files": [
+        "level0.tmx", "level1.tmx", "level2.tmx", "level3.tmx", "level4.tmx",
+        "platformer-tileset.tsx", "tileset_32x32(new).png"
+      ]
+    },
+    {
+      "from": "./assets/player/",
+      "to_folder": "assets/player",
+      "files": [
+        "attack.png", "die.png", "idle.png", "jump-double.png",
+        "jump-down.png", "jump-up.png", "run.png"
+      ]
+    },
+    {
+      "from": "./assets/sfx/",
+      "to_folder": "assets/sfx",
+      "files": [
+        "boss-music.ogg", "coin.ogg", "death.ogg", "explosion.ogg",
+        "hit.ogg", "jump.ogg", "musket-shoot.ogg"
+      ]
+    },
+    {
+      "from": "./assets/ui/",
+      "to_folder": "assets/ui",
+      "files": [
+        "clock-icon-32.png", "coin-icon-32.png", "death-icon-32.png",
+        "kill-icon-32.png", "PixelifySans.ttf", "skip-icon-32.png"
+      ]
+    }
+  ]
+}
